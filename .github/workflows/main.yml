@@ -16,7 +16,7 @@ jobs:
       with:
         bundler: Gemfile.lock
         bundler-cache: true
-        ruby-version: 2.7.1
+        ruby-version: 3.4.8
     
     - name: Config/Versioning Debugging
       run: bundle exec jekyll doctor
